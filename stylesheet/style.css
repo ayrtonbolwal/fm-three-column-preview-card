@@ -11,17 +11,25 @@ html {
   font-size: 15px;
   color: var(--veryLightGray);
 }
-h2 {
-  font-family: "Big Shoulders Display", cursive;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-}
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
+
+
+h1 {
+  display: none;
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+
 
 body {
   width: 100%;
@@ -123,19 +131,19 @@ button:hover {
     height: auto;
     padding: 3rem 0;
   }
-  .target{
+  .target {
     width: 90%;
     height: fit-content;
 
     grid-template-columns: repeat(1, 1fr);
   }
-  .target__car{
+  .target__car {
     padding: 3rem 2rem;
   }
-  .target__car-info{
+  .target__car-info {
     margin-bottom: 2rem;
   }
-  .target__car-info p{
+  .target__car-info p {
     font-size: 1.2rem;
     line-height: 2rem;
   }
